@@ -1,7 +1,7 @@
 ## Amsb
 <p align="center">
 
-  <img src="http://readme-typing-svg.herokuapp.com?color=%230B80F7&center=true&vCenter=true&multiline=false&lines=Laura-main;" alt="budii">
+  <img src="http://readme-typing-svg.herokuapp.com?color=%230B80F7&center=true&vCenter=true&multiline=false&lines=Laura - MD;" alt="budii">
 
 </p>
 <div align="center">
@@ -21,7 +21,7 @@ Projector criador por <a href="https://github.com/Tommy-ejs">Tommy</a>
 </p>
 
 ## Heroku Buildpack
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Tommy-ejs/Laura-MD)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Tommy-ejs/Laura-main)
 
 | BuildPack | LINK |
 |--------|--------|
