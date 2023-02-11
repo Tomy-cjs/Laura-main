@@ -600,7 +600,7 @@ if (!groupAdmins) return enviar(resposta.adm)
 if (!isBotGroupAdmins) return enviar(resposta.botadm)
 try {
 const linkgp = await conn.groupInviteCode(from)
-enviar(`🧸 Link do grupo: https://chat.whatsapp.com/${linkgp} 😚`)
+conn.sendMessage(from, { text: `🏷 CHAT 🌺 *${groupName}*\n\n🧸 Total Adms: ${groupAdmins.length}\n☁️ Total Membros: ${groupMembers.length}\n🔗 Link: ${linkgp}`}, {quoted: ContatVR})
 } catch(e) {
 console.log(e)
 enviar(resposta.erro)
@@ -685,6 +685,36 @@ if (!isBotGroupAdmins) return enviar(resposta.botadm)
 try {
 await conn.groupUpdateSubject(from, `${q}`)
 enviar('🧸 Nome alterado com sucesso 🌺')
+} catch(e) {
+console.log(e)
+enviar(resposta.erro)
+}
+break
+
+case 'rebaixar':
+if (!isRegistro) return enviar(resposta.registro)
+if (!isGroup) return enviar(resposta.grupo)
+if (!groupAdmins) return enviar(resposta.adm)
+if (args.length < 1) return enviar('Digite o número, animal')
+if (!isBotGroupAdmins) return enviar(resposta.botadm)
+try {
+conn.groupParticipantsUpdate(from, [`${q}@s.whatsapp.net`], 'demote')
+enviar(`*🧸 Vixi @${q}. Você foi rebaixado a membro comum. 🤭*`)
+} catch(e) {
+console.log(e)
+enviar(resposta.erro)
+}
+break
+
+case 'promover':
+if (!isRegistro) return enviar(resposta.registro)
+if (!isGroup) return enviar(resposta.grupo)
+if (!groupAdmins) return enviar(resposta.adm)
+if (args.length < 1) return enviar('Cade o número, mongolóide')
+if (!isBotGroupAdmins) return enviar(resposta.botadm)
+try {
+conn.groupParticipantsUpdate(from, [`${q}@s.whatsapp.net`], 'promote')
+enviar(`*🧸 Parabéns @${q}. Você foi promovido a adm. ☺*`)
 } catch(e) {
 console.log(e)
 enviar(resposta.erro)
