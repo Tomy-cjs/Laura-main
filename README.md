@@ -8,7 +8,7 @@
 <img src="https://telegra.ph/file/6985e0c94db20ca33334e.jpg" alt="Img" width="128" height="128"/>
 </p>
   <p align="center">
-<a href="https://chat.whatsapp.com/I9jEcNa9aR7GSFvfAkJpJJ"><img title="Grupo ofc" src="https://img.shields.io/badge/whatsapp-js/JulieMwol?color=blue&style=for-the-badge&logo=WhatsApp"></a>
+<a href="https://chat.whatsapp.com/I9jEcNa9aR7GSFvfAkJpJJ"><img title="Grupo ofc" src="https://img.shields.io/badge/grupo-js/JulieMwol?color=blue&style=for-the-badge&logo=WhatsApp"></a>
 </p>
 </div>
 <p align="center">
@@ -30,7 +30,7 @@ Desenvolvendo da Laura - MD. <a href="https://github.com/Tommy-ejs">Tommy</a>
 ---------
 ## 
 
-* Instale todos os pacotes recomendado utilizando. `sh install.sh`
+* Instale os pacotes recomendado utilizando. `sh install.sh`
 * Para iniciar a Laura - MD. Sem alto reconexão. `node index.js`
 * Para iniciar a Laura - MD. Com alto reconexão. `sh start.sh`
 
