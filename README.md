@@ -1,4 +1,4 @@
-#Laura
+#Laura - MD
 <p align="center">
 
   <img src="http://readme-typing-svg.herokuapp.com?color=%230B80F7&center=true&vCenter=true&multiline=false&lines=Laura - MD;" alt="budii">
@@ -13,7 +13,7 @@
 </p>
 </div>
 <p align="center">
-Desenvolvendo da Laura - MD.<a href="https://github.com/Tommy-ejs">Tommy</a> 
+Desenvolvendo da Laura - MD. <a href="https://github.com/Tommy-ejs">Tommy</a> 
     <br>
        | © |
         Reservado |
@@ -32,8 +32,8 @@ Desenvolvendo da Laura - MD.<a href="https://github.com/Tommy-ejs">Tommy</a>
 ## 
 
 * Instale todos os pacotes recomendado utilizando. `sh install.sh`
-* Para inicializar a Laura - MD. Sem alto reconexão. `node index.js`
-* Para inicializar a Laura - MD. Com alto reconexão. `sh start.sh`
+* Para iniciar a Laura - MD. Sem alto reconexão. `node index.js`
+* Para iniciar a Laura - MD. Com alto reconexão. `sh start.sh`
 
 ---------
 
