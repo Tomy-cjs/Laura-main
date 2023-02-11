@@ -61,5 +61,4 @@ node .
       f8b2bcc4-fa50-4503-a41d-e5c094f4bbba       
   </b>
 
-Obrigado pelo apoio. 
 ---------
