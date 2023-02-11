@@ -1,4 +1,4 @@
-##Laura - MD
+#Laura - MD
 <p align="center">
 
   <img src="http://readme-typing-svg.herokuapp.com?color=%230B80F7&center=true&vCenter=true&multiline=false&lines=Laura - MD;" alt="budii">
@@ -31,7 +31,7 @@ Desenvolvendo da Laura - MD.<a href="https://github.com/Tommy-ejs">Tommy</a>
 ---------
 ## 
 
-* Instale todos os pacotes recomendado utilizando. `sh install.sh`
+* Instale todos os pacotes recomendado utilizando.  `sh install.sh`
 * Para inicializar a Laura - MD. Sem alto reconexão. `node index.js`
 * Para inicializar a Laura - MD. Com alto reconexão. `sh start.sh`
 
@@ -56,9 +56,11 @@ node .
 
 ## Donate 
 
-* Que tau me pagar um Danone? E garantir novos update na Laura - MD. Mande um pix de qualquer valor para essa chaver pix: *
+* Que tau me pagar um Danone? E garantir novos update na Laura - MD. Mande um pix de qualquer valor para essa chaver pix: 
 
-<b>f8b2bcc4-fa50-4503-a41d-e5c094f4bbba</b>
+  <b>
+      f8b2bcc4-fa50-4503-a41d-e5c094f4bbba       
+  </b>
 
-* Obrigado pela apoio. *
+Obrigado pelo apoio. 
 ---------
