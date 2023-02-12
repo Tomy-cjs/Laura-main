@@ -58,7 +58,7 @@ node .
 * Que tau me pagar um Danone? E garantir novos update na Laura - MD. Mande um pix de qualquer valor para essa chaver pix: 
 
   <b>
-      f8b2bcc4-fa50-4503-a41d-e5c094f4bbba       
+      9ad69aa4-d800-4888-a42e-ed9cf6c94333       
   </b>
 
 ---------
