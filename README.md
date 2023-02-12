@@ -12,7 +12,7 @@
 </p>
 </div>
 <p align="center">
-Desenvolvendo da Laura - MD. <a href="https://github.com/">Tommy</a> 
+Desenvolvendo da Laura - MD. <a href="https://github.com/">Tomy</a> 
     <br>
        | © |
         Reservado |
