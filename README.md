@@ -12,7 +12,7 @@
 </p>
 </div>
 <p align="center">
-Desenvolvendo da Laura - MD. <a href="https://github.com/Tommy-ejs">Tommy</a> 
+Desenvolvendo da Laura - MD. <a href="https://github.com/">Tommy</a> 
     <br>
        | © |
         Reservado |
@@ -20,7 +20,7 @@ Desenvolvendo da Laura - MD. <a href="https://github.com/Tommy-ejs">Tommy</a>
 </p>
 
 ## Heroku Buildpack
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Tommy-ejs/Laura-main)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Tomy-cjs/Laura-main)
 
 | BuildPack | LINK |
 |--------|--------|
@@ -46,7 +46,7 @@ Desenvolvendo da Laura - MD. <a href="https://github.com/Tommy-ejs">Tommy</a>
 ## Comandos básicos. Primeira instalação.
 
 ```bash
-git clone https://github.com/Tommy-ejs/Laura-main.git
+git clone https://github.com/Tomy-cjs/Laura-main.git
 cd Laura-main
 node .
 

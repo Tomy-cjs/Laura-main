@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tommy-ejs/Laura-main.git"
+    "url": "git+https://github.com/Tomy-cjs/Laura-main.git"
   },
   "keywords": [
     "não",
@@ -18,9 +18,9 @@
   "author": "Tommy",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Tommy-ejs/Laura-main/issues"
+    "url": "https://github.com/Tomy-cjs/Laura-main/issues"
   },
-  "homepage": "https://github.com/Tommy-ejs/Laura-main#readme",
+  "homepage": "https://github.com/Tomy-cjs/Laura-main#readme",
   "dependencies": {
     "@adiwajshing/baileys": "github:adiwajshing/baileys",
     "@adiwajshing/keyed-db": "^0.2.4",
