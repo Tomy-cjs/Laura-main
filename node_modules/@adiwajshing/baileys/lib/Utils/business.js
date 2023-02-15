@@ -8,13 +8,7 @@ const messages_media_1 = require("./messages-media");
 const parseCatalogNode = (node) => {
     const catalogNode = (0, WABinary_1.getBinaryNodeChild)(node, 'product_catalog');
     const products = (0, WABinary_1.getBinaryNodeChildren)(catalogNode, 'product').map(exports.parseProductNode);
-    const paging = (0, WABinary_1.getBinaryNodeChild)(catalogNode, 'paging');
-    return {
-        products,
-        nextPageCursor: paging
-            ? (0, WABinary_1.getBinaryNodeChildString)(paging, 'after')
-            : undefined
-    };
+    return { products };
 };
 exports.parseCatalogNode = parseCatalogNode;
 const parseCollectionsNode = (node) => {
@@ -208,12 +202,8 @@ const uploadingNecessaryImages = async (images, waUploadToServer, timeoutMs = 30
             contentBlocks.push(block);
         }
         const sha = hasher.digest('base64');
-        const { directPath } = await waUploadToServer((0, messages_media_1.toReadable)(Buffer.concat(contentBlocks)), {
-            mediaType: 'product-catalog-image',
-            fileEncSha256B64: sha,
-            timeoutMs
-        });
-        return { url: (0, messages_media_1.getUrlFromDirectPath)(directPath) };
+        const { mediaUrl } = await waUploadToServer((0, messages_media_1.toReadable)(Buffer.concat(contentBlocks)), { mediaType: 'image', fileEncSha256B64: sha, timeoutMs });
+        return { url: mediaUrl };
     }));
     return results;
 };

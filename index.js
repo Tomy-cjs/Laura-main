@@ -1,4 +1,4 @@
-//Feita por Ton/Tommy
+//Feita por Ton/Tomy
 require('./datab/armazenamento/env/info')
 const { 
 default: WAConnection,
@@ -335,12 +335,12 @@ if (!isRegistro) return enviar(resposta.registro)
 sections = [{
 title: "Laura - MD",
 rows: [
- {title: "🧸 Estilo 1 ⚘", rowId: `${prefixo}ttp`},
- {title: "🧸 Estilo 2 ⚘", rowId: `${prefixo}attp2`},   
- {title: "🧸 Estilo 3 ⚘", rowId: `${prefixo}attp3`},
- {title: "🧸 Estilo 4 ⚘", rowId: `${prefixo}attp4`},
- {title: "🧸 Estilo 5 ⚘", rowId: `${prefixo}attp5`},
- {title: "🧸 Estilo 6 ⚘", rowId:`${prefixo}attp6`},
+ {title: "🧸 Estilo 1 ⚘", rowId: `${prefixo}ttp ${q}`},
+ {title: "🧸 Estilo 2 ⚘", rowId: `${prefixo}attp2 ${q}`},   
+ {title: "🧸 Estilo 3 ⚘", rowId: `${prefixo}attp3 ${q}`},
+ {title: "🧸 Estilo 4 ⚘", rowId: `${prefixo}attp4 ${q}`},
+ {title: "🧸 Estilo 5 ⚘", rowId: `${prefixo}attp5 ${q}`},
+ {title: "🧸 Estilo 6 ⚘", rowId:`${prefixo}attp6 ${q}`},
 ]
 },
 ]
