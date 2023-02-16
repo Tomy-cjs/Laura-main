@@ -51,6 +51,7 @@ logo = imagens.logo
 const { climaDl } = require('./datab/js/clima')
 const { mediafireDl } = require('./datab/js/mediafire')
 const { pinterest } = require('./datab/js/srch')
+const { ia } = require('./datab/js/ia')
 
 // Funções módulos
 let girastamp = speed()
@@ -385,6 +386,22 @@ conn.sendMessage(from, {sticker: attp}, {quoted: ContatVR})
 } catch(e) {
 console.log(e)
 enviar(resposta.erro)
+}
+break
+
+case 'ia':
+case 'openai':
+case 'chatgpt':
+if (!isRegistro) return enviar(resposta.registro)
+if (args.length < 1) return enviar(`Exemplo: ${prefixo + comando}quem criou o minecraft?`)
+try {
+let openai = await ia(q) // Defina a key do chatgpt no arquivo ia.js ele está dentro da pasta js
+let response = openai[0].resposta
+delay(1000)
+enviar(response)
+} catch(e) {
+console.log(e)
+enviar('*🧸Oops, não e possível utilizar o comando até a key do chatgpt seja definida...*')
 }
 break
 
@@ -730,6 +747,7 @@ switch(testat){
 // Resposta quando o comando não é encontrado
 if (isCmd){
 enviar('*O comando não foi encontrado... 😣*')
+delay(1000)
 await conn.sendMessage(from, { react: { text: '💣', key: info.key }})     
 }
 
