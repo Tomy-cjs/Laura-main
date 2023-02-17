@@ -393,7 +393,7 @@ case 'ia':
 case 'openai':
 case 'chatgpt':
 if (!isRegistro) return enviar(resposta.registro)
-if (args.length < 1) return enviar(`Exemplo: ${prefixo + comando}quem criou o minecraft?`)
+if (args.length < 1) return enviar(`Exemplo: ${prefixo + comando} quem criou o minecraft?`)
 try {
 let openai = await ia(q) // Defina a key do chatgpt no arquivo ia.js ele está dentro da pasta js
 let response = openai[0].resposta
