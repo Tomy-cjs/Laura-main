@@ -341,7 +341,7 @@ rows: [
  {title: "🧸 Estilo 3 ⚘", rowId: `${prefixo}attp3 ${q}`},
  {title: "🧸 Estilo 4 ⚘", rowId: `${prefixo}attp4 ${q}`},
  {title: "🧸 Estilo 5 ⚘", rowId: `${prefixo}attp5 ${q}`},
- {title: "🧸 Estilo 6 ⚘", rowId:`${prefixo}attp6 ${q}`},
+ {title: "🧸 Estilo 6 ⚘", rowId: `${prefixo}attp6 ${q}`},
 ]
 },
 ]
